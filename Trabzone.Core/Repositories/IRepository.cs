@@ -12,8 +12,12 @@ public interface IRepository<TEntity, TId> where TEntity : Entity<TId>, new()
     Func<IQueryable<TEntity>, IOrderedQueryable<TEntity>>? orderBy = null,
     CancellationToken cancellationToken = default
   );
+
   Task<TEntity?> GetByIdAsync(TId id);
+
   Task<TEntity> AddAsync(TEntity entity);
+
   Task<TEntity?> DeleteAsync(TEntity entity);
+
   Task<TEntity?> UpdateAsync(TEntity entity);
 }

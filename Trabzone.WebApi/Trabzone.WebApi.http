@@ -1,0 +1,6 @@
+@Trabzone.WebApi_HostAddress = http://localhost:5211
+
+GET {{Trabzone.WebApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

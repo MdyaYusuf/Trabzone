@@ -5,6 +5,14 @@ VisualStudioVersion = 17.14.36310.24 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trabzone.Core", "Trabzone.Core\Trabzone.Core.csproj", "{5EBD32DC-2533-4C02-83CB-8EAEA213A9B6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trabzone.DataAccess", "Trabzone.DataAccess\Trabzone.DataAccess.csproj", "{28EDC390-5367-494B-85B1-A3DC235029B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trabzone.Models", "Trabzone.Models\Trabzone.Models.csproj", "{DDA937AC-06D5-42C8-B1C5-7648177CEC4B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trabzone.Service", "Trabzone.Service\Trabzone.Service.csproj", "{CC4EE05F-453E-4449-8DB0-F6973A698AD7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trabzone.WebApi", "Trabzone.WebApi\Trabzone.WebApi.csproj", "{BABBA337-040D-4144-91E8-90C448321213}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +23,22 @@ Global
 		{5EBD32DC-2533-4C02-83CB-8EAEA213A9B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5EBD32DC-2533-4C02-83CB-8EAEA213A9B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5EBD32DC-2533-4C02-83CB-8EAEA213A9B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28EDC390-5367-494B-85B1-A3DC235029B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28EDC390-5367-494B-85B1-A3DC235029B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28EDC390-5367-494B-85B1-A3DC235029B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28EDC390-5367-494B-85B1-A3DC235029B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDA937AC-06D5-42C8-B1C5-7648177CEC4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDA937AC-06D5-42C8-B1C5-7648177CEC4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDA937AC-06D5-42C8-B1C5-7648177CEC4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDA937AC-06D5-42C8-B1C5-7648177CEC4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC4EE05F-453E-4449-8DB0-F6973A698AD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC4EE05F-453E-4449-8DB0-F6973A698AD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC4EE05F-453E-4449-8DB0-F6973A698AD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC4EE05F-453E-4449-8DB0-F6973A698AD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BABBA337-040D-4144-91E8-90C448321213}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BABBA337-040D-4144-91E8-90C448321213}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BABBA337-040D-4144-91E8-90C448321213}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BABBA337-040D-4144-91E8-90C448321213}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
